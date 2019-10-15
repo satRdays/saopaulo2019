@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://satrdays-event-template.netlify.com/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+baseurl = "https://https://saopaulo2019.satrdays.org/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
 languageCode = "en-us"
 title = "satRday"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
@@ -20,8 +20,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday São Paulo"
+  description = "Conferência sobre R em São Paulo"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -35,7 +35,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
+    heading = "Página não encontrada"
     text = "Please visit [this page](/)"
 
   # Optional piwik tracking
@@ -52,12 +52,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "About"
-    portfolio = "Talks"
-    eventbrite = "Register"
-    schedule = "Schedule"
-    team = "People"
-    contact = "Get involved"
+    services = "Sobre o evento"
+    portfolio = "Palestras"
+    eventbrite = "Inscreva-se"
+    schedule = "Programação"
+    team = "Equipe Organizadora"
+    contact = "Contato"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -80,24 +80,24 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday São Paulo"
+    subtitle = "Uma conferência para usuários(a) da Linguagem R em 30 de novembro de 2019"
     bg = true
-    buttonText = "Tell me more"
+    buttonText = "Saiba mais"
 
 
   # About [Services] section
   [params.services]
     enable = true
-    title = "About"
-    subtitle = "Conference Details"
+    title = "Sobre o evento"
+    subtitle = "Detalhes sobre a Conferência"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      title = "Detalhes"
+      description = "31 de novembro de 2019 na Insper"
       url = "#"
 
     [[params.services.row.list]]
@@ -132,41 +132,41 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Register section
   # You only need ONE of these active
-  [params.tito]
-    enable = true
-    title = "Register"
-    bg = true
-    accountevent = "ultimateconf/2013"
-      # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
-      # include botht the account and event in a string, seperated by /, with no spaces
+#  [params.tito]
+#    enable = true
+#    title = "Register"
+#    bg = true
+#    accountevent = "ultimateconf/2013"
+#      # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
+#      # include botht the account and event in a string, seperated by /, with no spaces
 
-  [params.eventbrite]
-    enable = true
-    title = "Register"
-    bg = true
-    eid = "32416000129" 
-      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
-      # Follow instructions to discover your 'Website Integration' embeddable iframe
-      # Take ONLY the numeric string between "eid=" and "&ref=etckt"
-      # Supply this string as the value to `eid` above
+#  [params.eventbrite]
+#    enable = true
+#    title = "Register"
+#    bg = true
+#    eid = "32416000129" 
+#      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
+#      # Follow instructions to discover your 'Website Integration' embeddable iframe
+#      # Take ONLY the numeric string between "eid=" and "&ref=etckt"
+#      # Supply this string as the value to `eid` above
 
-  [params.tickettailor]
-    enable = true
-    title = "Register"
-    bg = true
-    eventviewid = "162430"
-      # Go to www.tickettailor.com and open your event page
-      # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
-      # Supply the number ONLY in `eventviewid`
+#  [params.tickettailor]
+#    enable = true
+#    title = "Register"
+#    bg = true
+#    eventviewid = "162430"
+#      # Go to www.tickettailor.com and open your event page
+#      # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
+#      # Supply the number ONLY in `eventviewid`
   
   # Call for papers section
-  [params.callforpapers]
-    enable = true
-    title = "Call For Papers"
-    bg = false
-    CfSpage = "/test3490"
-      # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+#  [params.callforpapers]
+#    enable = true
+#    title = "Call For Papers"
+#    bg = false
+#    CfSpage = "/test3490"
+#      # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
+#    dates = "09 Aug - 21 Sep 2018"
 
   # Talk [Portfolio] section
   [params.portfolio]
