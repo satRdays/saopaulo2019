@@ -20,8 +20,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday São Paulo"
+  description = "Conferência de R em São Paulo"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -35,7 +35,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
+    heading = "Página não encontrada"
     text = "Please visit [this page](/)"
 
   # Optional piwik tracking
@@ -52,12 +52,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "About"
-    portfolio = "Talks"
-    eventbrite = "Register"
-    schedule = "Schedule"
-    team = "People"
-    contact = "Get involved"
+    services = "Sobre o evento"
+    portfolio = "Palestras"
+    # about = "Datas importantes"
+    eventbrite = "Inscreva-se"
+    schedule = "Programação"
+    team = "Equipe organizadora"
+    contact = "Contato"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -89,8 +90,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # About [Services] section
   [params.services]
     enable = true
-    title = "About"
-    subtitle = "Conference Details"
+    title = "Sobre a Conferência"
+    subtitle = ""
 
     [[params.services.row]]
 
@@ -132,29 +133,29 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Register section
   # You only need ONE of these active
-  [params.tito]
-    enable = true
-    title = "Register"
-    bg = true
-    accountevent = "ultimateconf/2013"
+  # [params.tito]
+  #  enable = true
+  #  title = "Register"
+  #  bg = true
+  #  accountevent = "ultimateconf/2013"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
       # include botht the account and event in a string, seperated by /, with no spaces
 
-  [params.eventbrite]
-    enable = true
-    title = "Register"
-    bg = true
-    eid = "32416000129" 
+ # [params.eventbrite]
+ #   enable = true
+ #   title = "Register"
+ #   bg = true
+ #   eid = "32416000129" 
       # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
       # Follow instructions to discover your 'Website Integration' embeddable iframe
       # Take ONLY the numeric string between "eid=" and "&ref=etckt"
       # Supply this string as the value to `eid` above
 
-  [params.tickettailor]
-    enable = true
-    title = "Register"
-    bg = true
-    eventviewid = "162430"
+ # [params.tickettailor]
+ #   enable = true
+ #   title = "Register"
+ #   bg = true
+ #   eventviewid = "162430"
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
       # Supply the number ONLY in `eventviewid`
@@ -175,7 +176,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Talks"
+    title = "Palestras"
     subtitle = "Who's saying what"
     bg = true
 
@@ -194,43 +195,38 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Important Dates [About] section
   [params.about]
     enable = true
-    title = "Important Dates"
-    subtitle = "Be prepared!"
-    endpoint = "Conference"
+    title = "Datas importantes"
+    subtitle = ""
+    endpoint = "30/11/2019 satRday São Paulo 2019"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "First Date"
-      title = "Initial Announcement"
-      description = "We're organising a conference!"
+      date = "18/10/2019"
+      title = "Início de submissão de palestras"
+      description = ""
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "Second Date"
-      title = "Early Bird Ticket Sales"
-      description = "Early round of tickets now available at discount"
+      date = "08/11/2019"
+      title = "Término do período de submissão de palestras"
+      description = ""
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "Third Date"
-      title = "Call For Papers"
-      description = "Submissions for speakers are now open!"
+      date = "18/11/2019"
+      title = "Comunicação dos resultados de submissão de palestras"
+      description = ""
 
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "Fourth Date"
-      title = "Call For Papers Ends"
-      description = "Cut off date for speaker submissions"
-  
+ 
   # Location section
   [params.location]
     enable = true
-    title = "Location title"
+    title = "Localização"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
+    iframesrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.1632812916264!2d-46.67885388506984!3d-23.598476384664437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce575374b7481f%3A0x50e5aad2656c43ed!2sInsper%20Instituto%20de%20Ensino%20e%20Pesquisa!5e0!3m2!1spt-BR!2sbr!4v1571355060856!5m2!1spt-BR!2sbr"
 
   # Team section
   [params.team]
@@ -401,5 +397,5 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       link = "#"
 
     [[params.footer.quicklinks]]
-      text = "Terms of Use"
+      text = "Termos de uso"
       link = "#"
