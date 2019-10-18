@@ -169,6 +169,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     # dates = "09 Aug - 21 Sep 2018"
 
+    # Schedule section
+  [params.schedule]
+    enable = true
+    title = "Programação"
+    bg = false
+
   # Talk [Portfolio] section
   [params.portfolio]
     enable = true #QUANDO TIVER O CONTEÚDO, HABILITAR
@@ -186,11 +192,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       category = "Category"
       buttonText = "Close project"
 
-  # Schedule section
-  [params.schedule]
-    enable = true
-    title = "Programação"
-    bg = false
+
 
   # Important Dates [About] section
   [params.about]
@@ -231,7 +233,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Team section
   [params.team]
-    enable = false  # HABILITAR QUANDO SOUBER
+    enable = true  # HABILITAR QUANDO SOUBER
     # Possibility to center items
     #center = true
     title = "Equipe Organizadora"
@@ -244,69 +246,290 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Beatriz Milz"
-      position = "Organizadora satRdays São Paulo"
+      name = "Bruna Wundervald"
+      position = "Comitê Organizador / Comitê Científico"
       scope = [
-        "- Doutoranda - Instituto de Energia e Ambiente - Universidade de São Paulo (IEE/USP)",
-        "- Co-Organizadora - R-Ladies São Paulo",
-      ]
-      # For bio markdown and even multiline strings are available.
-    
-      social = [
-        ["fa-twitter", "https://twitter.com/BeaMilz"],
-        ["fa-github", "https://github.com/beatrizmilz"],
-        ["fa-linkedin", "https://www.linkedin.com/in/beatrizmilz/"],
-        ["fa-home", "https://beatrizmilz.com/"]
-      ]
-
-    
-
-    [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
-      bio = """I do things,
-      and stuff"""
+        "",
+        "",
+      ] 
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
 
+
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "Beatriz Milz"
+      position = "Comitê Organizador"
+      scope = [
+        "USP",
+        "R-Ladies São Paulo",
+      ] 
+      social = [
+        ["fa-twitter", "https://twitter.com/BeaMilz"],
+        ["fa-github", "https://github.com/beatrizmilz"],
+        ["fa-linkedin", "https://www.linkedin.com/in/beatrizmilz/"]
+      ]
+
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "Julio Trecenti"
+      position = "Comitê Organizador"
+     scope = [
+        "",
+        "",
+      ]  
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "Nathália Demétrio"
+      position = "Comitê Organizador / Comitê Científico"
+    scope = [
+        "",
+        "",
+      ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "Daniel Falbel"
+      position = "Comitê Organizador"
+       scope = [
+        "",
+        "",
+      ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "Fernanda Fortti"
+      position = "Comitê Organizador"
+       scope = [
+        "",
+        "",
+      ]  
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+        [[params.team.members]]
+      img = "faceholder.png"
+      name = "Caio Lente"
+      position = "Comitê Organizador"
+      scope = [
+        "",
+        "",
+      ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "Renata Hirota"
+      position = "Comitê Organizador / Comitê Científico"
+      scope = [
+        "",
+        "",
+      ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+  
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = " William Amorim"
+      position = "Comitê Organizador"
+       scope = [
+        "",
+        "",
+      ]  
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+        [[params.team.members]]
+      img = "faceholder.png"
+      name = "Angélica Custódio"
+      position = "Comitê Organizador"
+      scope = [
+        "",
+        "",
+      ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+        [[params.team.members]]
+      img = "faceholder.png"
+      name = "José de Jesus"
+      position = "Comitê Organizador / Comitê Científico"
+    scope = [
+       "",
+       "",
+     ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "Letícia Thomaz"
+      position = "Comitê Organizador / Comitê Científico"
+    scope = [
+       "",
+       "",
+     ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+   [[params.team.members]]
+      img = "faceholder.png"
+      name = "Gabriel Zanlorenssi"
+      position = "Comitê Organizador"
+    scope = [
+       "",
+       "",
+     ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+         [[params.team.members]]
+      img = "faceholder.png"
+      name = "Adriana Reis"
+      position = "Comitê Organizador"
+    scope = [
+       "",
+       "",
+     ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+  [[params.team.members]]
+      img = "faceholder.png"
+      name = "Gabriela Caesar"
+      position = "Comitê Organizador"
+    scope = [
+       "",
+       "",
+     ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+  [[params.team.members]]
+      img = "faceholder.png"
+      name = "Mariana Dias Guilardi"
+      position = "Comitê Organizador"
+    scope = [
+       "",
+       "",
+     ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+  [[params.team.members]]
+      img = "faceholder.png"
+      name = "Cecília do Lago"
+      position = "Comitê Organizador"
+    scope = [
+       "",
+       "",
+     ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+  [[params.team.members]]
+      img = "faceholder.png"
+      name = "Hamanda Cavalheri"
+      position = "Comitê Organizador"
+    scope = [
+       "",
+       "",
+     ] 
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
   # Client section
   [params.clients_list]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     # Optional client title specifying the involvement
-    title = "Sponsors"
+    title = "Patrocinadores/Sponsors"
     bg = true
 
     # All the clients' logos are stored under 'static/img/logos'.
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "designmodo.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "themeforest.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "creative-market.jpg"
-      link = "#"
+      # logo = "envato.jpg"
+      #link = "#"
+      
   
   [params.diversity]
     enable = true
-    title = "Diversity"
-    bg = true
+    title = "Diversidade e Código de Conduta"
+    bg = false
 
   # Contact section
   [params.contact]
@@ -334,7 +557,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "EM BREVE"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
