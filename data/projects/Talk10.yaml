@@ -1,9 +1,9 @@
 modalID: 1
-title: "Abertura"
+title: "Encerramento"
 subtitle: "First Subtitle"
 date: 2019-11-30
-startsAt: 09:00
-endsAt: 09:30
+startsAt: 16:50
+endsAt: 17:00
 img: roundicons.png
 preview: faceholder.png
 client: 

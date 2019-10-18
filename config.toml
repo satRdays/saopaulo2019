@@ -171,7 +171,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = true
+    enable = true #QUANDO TIVER O CONTEÚDO, HABILITAR
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -189,12 +189,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Schedule section
   [params.schedule]
     enable = true
-    title = "Schedule"
+    title = "Programação"
     bg = false
 
   # Important Dates [About] section
   [params.about]
     enable = true
+    bg = true
     title = "Datas importantes"
     subtitle = ""
     endpoint = "30/11/2019 satRday São Paulo 2019"
@@ -230,7 +231,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Team section
   [params.team]
-    enable = true
+    enable = false # HABILITAR QUANDO SOUBER
     # Possibility to center items
     #center = true
     title = "Equipe Organizadora"
