@@ -177,7 +177,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Palestras"
-    subtitle = "Em breve!"
+    subtitle = "Em breve! <br><br> [As inscrições para palestras estão abertas](https://forms.gle/hBGnao9KT35iUW6w6)!"
     bg = true
 
     [params.portfolio.modal]
@@ -207,7 +207,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       img = "1.jpg"
       date = "18/10/2019"
       title = "Início de submissão de palestras"
-      description = ""
+      description = " [Submeta através deste link](https://forms.gle/hBGnao9KT35iUW6w6)!"
 
     [[params.about.events]]
       img = "2.jpg"
@@ -231,7 +231,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Team section
   [params.team]
-    enable = false # HABILITAR QUANDO SOUBER
+    enable = false  # HABILITAR QUANDO SOUBER
     # Possibility to center items
     #center = true
     title = "Equipe Organizadora"
@@ -246,38 +246,29 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
-      reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      name = "Beatriz Milz"
+      position = "Organizadora satRdays São Paulo"
       scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
+        "- Doutoranda - Instituto de Energia e Ambiente - Universidade de São Paulo (IEE/USP)",
+        "- Co-Organizadora - R-Ladies São Paulo",
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+    
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/BeaMilz"],
+        ["fa-github", "https://github.com/beatrizmilz"],
+        ["fa-linkedin", "https://www.linkedin.com/in/beatrizmilz/"],
+        ["fa-home", "https://beatrizmilz.com/"]
       ]
 
-    [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    
 
     [[params.team.members]]
       img = "faceholder.png"
       name = "Organiser Name 3"
       position = "Organiser Position 3"
+      bio = """I do things,
+      and stuff"""
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
