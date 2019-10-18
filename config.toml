@@ -22,7 +22,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # information about you and your website.
   name = "satRday São Paulo"
   description = "Conferência de R em São Paulo"
-  # email = "your@email.com"
+   email = "satrdaysp@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
@@ -248,27 +248,30 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "brunaw.jpg"
       name = "Bruna Wundervald"
       position = "Comitê Organizador / Comitê Científico"
       scope = [
-        "",
-        "",
+        "- Maynooth University",
+        "- R-Ladies São Paulo",
+        "- R-Ladies Curitiba",
+        "- R-Ladies Dublin",
       ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/bwundervald"],
+        ["fa-github", "https://github.com/brunaw"],
+        ["fa-linkedin", "https://www.linkedin.com/in/bruna-wundervald-b1b79a160/"]
       ]
 
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "beamilz.jpg"
       name = "Beatriz Milz"
       position = "Comitê Organizador"
       scope = [
-        "USP",
-        "R-Ladies São Paulo",
+        "- Doutoranda no IEE-USP",
+        "- R-Ladies São Paulo",
+        "- Bolsista FAPESP"
       ] 
       social = [
         ["fa-twitter", "https://twitter.com/BeaMilz"],
@@ -277,17 +280,20 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "juliotrecenti.jpg"
       name = "Julio Trecenti"
       position = "Comitê Organizador"
      scope = [
-        "",
-        "",
+        "- Sócio-fundador da Curso-R",
+        "- Doutorando no IME-USP",
+        "- Sócio-fundador Terranova Consultoria",
+        "- Diretor da Associação Brasileira de Jurimetria",
+        "- Conselheiro do Conselho Federal de Estatística"
       ]  
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/jtrecenti"],
+        ["fa-github", "https://github.com/jtrecenti"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jtrecenti/"]
       ]
 
     [[params.team.members]]
@@ -295,6 +301,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Nathália Demétrio"
       position = "Comitê Organizador / Comitê Científico"
     scope = [
+      "- R-Ladies São Paulo",
         "",
         "",
       ] 
@@ -309,7 +316,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Daniel Falbel"
       position = "Comitê Organizador"
        scope = [
-        "",
+        "- RStudio",
+        "- Curso-R",
         "",
       ] 
       social = [
@@ -323,6 +331,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Fernanda Fortti"
       position = "Comitê Organizador"
        scope = [
+        "- R-Ladies São Paulo",
         "",
         "",
       ]  
@@ -337,7 +346,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Caio Lente"
       position = "Comitê Organizador"
       scope = [
-        "",
+        "- Curso-R",
+                "",
         "",
       ] 
       social = [
@@ -352,6 +362,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Renata Hirota"
       position = "Comitê Organizador / Comitê Científico"
       scope = [
+        "- R-Ladies São Paulo",
         "",
         "",
       ] 
@@ -367,6 +378,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = " William Amorim"
       position = "Comitê Organizador"
        scope = [
+       "- Curso-R",
         "",
         "",
       ]  
@@ -378,17 +390,18 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
         [[params.team.members]]
-      img = "faceholder.png"
+      img = "angelica.jpg"
       name = "Angélica Custódio"
       position = "Comitê Organizador"
       scope = [
-        "",
-        "",
+        "- R-Ladies São Paulo",
+        "- C6 BANK",
+        "- UFABC",
       ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/angcustodio"],
+        ["fa-github", "https://github.com/angelica93"],
+        ["fa-linkedin", "https://www.linkedin.com/in/angelicacustodio/"]
       ]
 
 
@@ -411,6 +424,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Letícia Thomaz"
       position = "Comitê Organizador / Comitê Científico"
     scope = [
+      "- R-Ladies São Paulo",
        "",
        "",
      ] 
@@ -440,6 +454,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Adriana Reis"
       position = "Comitê Organizador"
     scope = [
+       "- R-Ladies São Paulo",
        "",
        "",
      ] 
@@ -454,6 +469,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Gabriela Caesar"
       position = "Comitê Organizador"
     scope = [
+       "- R-Ladies São Paulo",
        "",
        "",
      ] 
@@ -469,6 +485,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Mariana Dias Guilardi"
       position = "Comitê Organizador"
     scope = [
+      "- R-Ladies São Paulo",
        "",
        "",
      ] 
@@ -484,6 +501,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Cecília do Lago"
       position = "Comitê Organizador"
     scope = [
+      "- R-Ladies São Paulo",
        "",
        "",
      ] 
@@ -499,6 +517,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Hamanda Cavalheri"
       position = "Comitê Organizador"
     scope = [
+       "- R-Ladies São Paulo",
        "",
        "",
      ] 
@@ -557,7 +576,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "EM BREVE"
+    email = "satrdaysp@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."

@@ -11,7 +11,7 @@ class="bg-light-gray"
     </div>
     <div class="row flexbox{{ if .Site.Params.team.center }} flexbox-center{{ end }}">
       {{ range .Site.Params.team.members }}
-        <div class="col-sm-2 col">
+        <div class="col-sm-3 col">
           <div class="team-member">
             {{ $url := printf "img/team/%s" .img }}
             <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
@@ -38,7 +38,7 @@ class="bg-light-gray"
 
             <ul class="list-inline social-buttons">
               {{ range .social }}
-                <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
+                <li><a href="{{ index . 1 }}" target="_blank"><i class="fa {{ index . 0 }}"></i></a></li>
               {{ end }}
             </ul>
 
@@ -55,6 +55,7 @@ class="bg-light-gray"
         <p class="large text-muted">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
       </div>
     </div>
+    <br> <br>
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">{{ with .Site.Params.team.speakers }}{{ . | markdownify }}{{ end }}</h2>
@@ -78,7 +79,7 @@ class="bg-light-gray"
 
               <ul class="list-inline social-buttons">
                 {{ range .social }}
-                  <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
+                  <li><a href="{{ index . 1 }}" target="_blank"><i class="fa {{ index . 0 }}"></i></a></li>
                 {{ end }}
               </ul>
 
