@@ -97,39 +97,39 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "Details"
-      description = "[Conference Date] at [Conference Location]"
-      url = "#"
+      title = "Onde e quando?"
+      description = "30 de novembro de 2019 no [Insper](https://www.insper.edu.br/)"
+      #url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Hands on"
-      description = "Practical applications and workshop sessions"
-      url = "#"
+      title = "Palestras e Pôsteres"
+      description = "Aprenda sobre aplicações práticas em R"
+      #url = "#"
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
-      title = "Learning"
-      description = "Gain knowledge from your peers and experienced professionals"
-      url = "#"
+      title = "Aprendizado"
+      description = "Obtenha conhecimento de seus colegas e profissionais experientes"
+      #url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Community Lead"
-      description = "Community organised, community focussed"
-      url = "#"
+      title = "Liderado pela Comunidade"
+      description = "Organizado pela comunidade, focado na comunidade"
+      #url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
-      title = "Affordable"
-      description = "Only [£30]"
-      url = "#"
+      title = "Preço acessível"
+      description = "Inscrições em breve"
+      #url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
-      title = "Accessible"
-      description = "Inclusive, supportive and respectful environment"
-      url = "#"
+      title = "Acessível"
+      description = "Ambiente inclusivo, solidário e respeitoso"
+      #url = "#"
 
   # Register section
   # You only need ONE of these active
