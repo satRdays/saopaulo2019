@@ -269,9 +269,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       name = "Beatriz Milz"
       position = "Comitê Organizador"
       scope = [
-        "- Doutoranda no IEE-USP",
+        "- Doutoranda - IEE-USP",
         "- R-Ladies São Paulo",
-        "- Bolsista FAPESP"
+
       ] 
       social = [
         ["fa-twitter", "https://twitter.com/BeaMilz"],
@@ -285,7 +285,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       position = "Comitê Organizador"
      scope = [
         "- Sócio-fundador da Curso-R",
-        "- Doutorando no IME-USP",
+        "- Doutorando - IME-USP",
         "- Sócio-fundador Terranova Consultoria",
         "- Diretor da Associação Brasileira de Jurimetria",
         "- Conselheiro do Conselho Federal de Estatística"
@@ -297,22 +297,23 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "nathdemetrio.jpg"
       name = "Nathália Demétrio"
       position = "Comitê Organizador / Comitê Científico"
     scope = [
-      "- R-Ladies São Paulo",
-        "",
-        "",
+        "- Cabify",
+        "- R-Ladies São Paulo",
+        "- CONRE-3",
+
       ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/natydemi"],
+        ["fa-github", "https://github.com/natydemi"],
+        ["fa-linkedin", "https://www.linkedin.com/in/nathaliademetrio/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "danielfalbel.jpg"
       name = "Daniel Falbel"
       position = "Comitê Organizador"
        scope = [
@@ -321,9 +322,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         "",
       ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/dfalbel"],
+        ["fa-github", "https://github.com/dfalbel"],
+        ["fa-linkedin", "https://www.linkedin.com/in/daniel-falbel-54b1a834/"]
       ]
 
     [[params.team.members]]
@@ -342,34 +343,33 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
         [[params.team.members]]
-      img = "faceholder.png"
+      img = "clente.jpg"
       name = "Caio Lente"
       position = "Comitê Organizador"
       scope = [
         "- Curso-R",
-                "",
-        "",
+        "- Mestrando - IME/USP",
+        "- Terranova",
       ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-github", "https://github.com/clente"],
+        ["fa-linkedin", "https://www.linkedin.com/in/clente/"]
       ]
 
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "renatahirota.jpg"
       name = "Renata Hirota"
       position = "Comitê Organizador / Comitê Científico"
       scope = [
         "- R-Ladies São Paulo",
-        "",
-        "",
+        "Vortex Media BR",
+        "IME-USP",
       ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/renata_mh"],
+        ["fa-github", "https://github.com/rmhirota"],
+        ["fa-linkedin", "https://www.linkedin.com/in/renata-hirota-65a142ab/"]
       ]
 
   
@@ -396,7 +396,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       scope = [
         "- R-Ladies São Paulo",
         "- C6 BANK",
-        "- UFABC",
+        "- Mestranda - UFABC",
       ] 
       social = [
         ["fa-twitter", "https://twitter.com/angcustodio"],
