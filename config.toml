@@ -162,12 +162,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Papers"
     bg = false
-    CfSpage = "/test3490"
+    #CfSpage = "/test3490"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    # dates = "09 Aug - 21 Sep 2018"
 
   # Talk [Portfolio] section
   [params.portfolio]
@@ -177,7 +177,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Palestras"
-    subtitle = "Who's saying what"
+    subtitle = "Em breve!"
     bg = true
 
     [params.portfolio.modal]
@@ -233,11 +233,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     # Possibility to center items
     #center = true
-    title = "Team"
-    subtitle = "The people putting it together"
+    title = "Equipe Organizadora"
+    subtitle = ""
     bg = false
     description = ""
-    speakers = "Speakers"
+    speakers = "Palestrantes"
     
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -319,9 +319,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    title = "Contato"
+    subtitle  = ""
+    buttonText = "Envie uma mensagem"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
