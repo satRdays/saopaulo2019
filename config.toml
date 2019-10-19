@@ -328,7 +328,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "rladies.jpg"
       name = "Fernanda Fortti"
       position = "Comitê Organizador"
        scope = [
@@ -337,9 +337,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         "",
       ]  
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/FeFortti"],
+        ["fa-linkedin", "https://www.linkedin.com/in/fernanda-fortti-79448260/"]
       ]
 
         [[params.team.members]]
@@ -363,8 +362,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       position = "Comitê Organizador / Comitê Científico"
       scope = [
         "- R-Ladies São Paulo",
-        "Vortex Media BR",
-        "IME-USP",
+        "- Vortex Media BR",
+        "- IME-USP",
       ] 
       social = [
         ["fa-twitter", "https://twitter.com/renata_mh"],
@@ -374,7 +373,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "william.jpg"
       name = " William Amorim"
       position = "Comitê Organizador"
        scope = [
@@ -383,9 +382,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         "",
       ]  
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/Williamorim89"],
+        ["fa-github", "https://github.com/williamorim"],
+        ["fa-linkedin", "https://www.linkedin.com/in/william-amorim-776162108/"]
       ]
 
 
@@ -406,7 +405,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
         [[params.team.members]]
-      img = "faceholder.png"
+      img = "josejesus.jpg"
       name = "José de Jesus"
       position = "Comitê Organizador / Comitê Científico"
     scope = [
@@ -414,74 +413,73 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
        "",
      ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/jjesusfilho"],
+        ["fa-github", "https://github.com/jjesusfilho"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jjesusfilho/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "leticiathomaz.jpg"
       name = "Letícia Thomaz"
       position = "Comitê Organizador / Comitê Científico"
     scope = [
       "- R-Ladies São Paulo",
-       "",
-       "",
+       "- Banco Fibra",
+       "- Pós-graduanda - FIA",
      ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+     
+    
+        ["fa-linkedin", "https://www.linkedin.com/in/leticiathomaz"]
       ]
 
 
    [[params.team.members]]
-      img = "faceholder.png"
+      img = "rlogo.png"
       name = "Gabriel Zanlorenssi"
       position = "Comitê Organizador"
     scope = [
-       "",
-       "",
+       "- Nexo Jornal",
+       "- Mestrando - USP",
      ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/gzanlorenssi"],
+        ["fa-github", "https://github.com/gabrielzanlorenssi"],
+        ["fa-linkedin", "https://www.linkedin.com/in/gabriel-zanlorenssi/"]
       ]
 
          [[params.team.members]]
-      img = "faceholder.png"
-      name = "Adriana Reis"
+      img = "adrianareis.jpg"
+      name = "Adriana Letícia dos Reis"
       position = "Comitê Organizador"
     scope = [
        "- R-Ladies São Paulo",
-       "",
+       "- VIVO ",
        "",
      ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-github", "https://github.com/drimack"],
+        ["fa-linkedin", "https://www.linkedin.com/in/reis-al/"]
       ]
 
   [[params.team.members]]
-      img = "faceholder.png"
+      img = "gabrielacaesar.jpg"
       name = "Gabriela Caesar"
       position = "Comitê Organizador"
     scope = [
        "- R-Ladies São Paulo",
-       "",
+       "- G1",
        "",
      ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/gabrielacaesar"],
+        ["fa-github", "https://github.com/gabrielacaesar"],
+        ["fa-linkedin", "https://www.linkedin.com/in/gabrielacaesar/"]
       ]
 
 
   [[params.team.members]]
-      img = "faceholder.png"
+      img = "rladies.jpg"
       name = "Mariana Dias Guilardi"
       position = "Comitê Organizador"
     scope = [
@@ -490,14 +488,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
        "",
      ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+
+        ["fa-github", "https://github.com/mariguilardi"],
+        ["fa-linkedin", "https://www.linkedin.com/in/mariguilardi/"]
       ]
 
 
   [[params.team.members]]
-      img = "faceholder.png"
+      img = "rladies.jpg"
       name = "Cecília do Lago"
       position = "Comitê Organizador"
     scope = [
@@ -506,25 +504,23 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
        "",
      ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/ceciliadolago"],
+        ["fa-github", "https://github.com/ceciliadolago"],
+        ["fa-linkedin", "https://www.linkedin.com/in/ceciliadolago/"]
       ]
 
 
   [[params.team.members]]
-      img = "faceholder.png"
+      img = "hamanda.jpg"
       name = "Hamanda Cavalheri"
       position = "Comitê Organizador"
     scope = [
        "- R-Ladies São Paulo",
-       "",
+       "- Loggi",
        "",
      ] 
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/hamanda-cavalheri-0a64393a/"]
       ]
 
 
