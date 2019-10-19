@@ -183,7 +183,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Palestras"
-    subtitle = "Em breve! <br><br> [As inscrições para palestras estão abertas](https://forms.gle/hBGnao9KT35iUW6w6)!"
+    subtitle = "Em breve! <br><br> [As submissões de palestras e pôsters estão abertas](https://forms.gle/hBGnao9KT35iUW6w6)!"
     bg = true
 
     [params.portfolio.modal]
@@ -328,17 +328,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
-      img = "rladies.jpg"
+      img = "fernandafortti.jpg"
       name = "Fernanda Fortti"
       position = "Comitê Organizador"
        scope = [
         "- R-Ladies São Paulo",
-        "",
+        "Mestranda - FSP-USP",
         "",
       ]  
       social = [
-        ["fa-twitter", "https://twitter.com/FeFortti"],
-        ["fa-linkedin", "https://www.linkedin.com/in/fernanda-fortti-79448260/"]
+      ["fa-linkedin", "https://www.linkedin.com/in/fernanda-fortti-79448260/"],
+      ["fa-github", "https://github.com/FeFortti"],
+      ["fa-graduation-cap", "http://lattes.cnpq.br/0136314640528010"]
+   
       ]
 
         [[params.team.members]]
