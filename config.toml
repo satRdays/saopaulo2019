@@ -333,8 +333,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       position = "Comitê Organizador"
        scope = [
         "- R-Ladies São Paulo",
-        "Mestranda - FSP-USP",
-        "",
+        "- Mestranda - FSP-USP",
+        "- Py-Ladies São Paulo",
       ]  
       social = [
       ["fa-linkedin", "https://www.linkedin.com/in/fernanda-fortti-79448260/"],
@@ -398,6 +398,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         "- R-Ladies São Paulo",
         "- C6 BANK",
         "- Mestranda - UFABC",
+        "- Py-Ladies São Paulo"
       ] 
       social = [
         ["fa-twitter", "https://twitter.com/angcustodio"],
@@ -470,7 +471,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       position = "Comitê Organizador"
     scope = [
        "- R-Ladies São Paulo",
-       "- G1",
+       "- PUC-Rio",
        "",
      ] 
       social = [
@@ -486,11 +487,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       position = "Comitê Organizador"
     scope = [
       "- R-Ladies São Paulo",
-       "",
-       "",
+       "- Py-Ladies São Paulo",
+       "- Mestranda - USP/Instituto Butantan",
      ] 
       social = [
-
+        ["fa-twitter", "https://twitter.com/mariguilardi"],
         ["fa-github", "https://github.com/mariguilardi"],
         ["fa-linkedin", "https://www.linkedin.com/in/mariguilardi/"]
       ]

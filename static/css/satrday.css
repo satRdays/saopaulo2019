@@ -613,7 +613,7 @@ canvas {
         background-repeat: no-repeat;
         background-color: #2165B6;
         background-position: bottom right;
-        padding-bottom: 8rem;
+        padding-bottom: 0rem;
     }
     header .intro-text .intro-lead-in {
         font-size: 1.6rem;
