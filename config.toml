@@ -438,7 +438,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
    [[params.team.members]]
-      img = "rlogo.png"
+      img = "gabrielz.jpg"
       name = "Gabriel Zanlorenssi"
       position = "Comitê Organizador"
     scope = [
