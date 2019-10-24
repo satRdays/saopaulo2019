@@ -177,7 +177,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = true #QUANDO TIVER O CONTEÚDO, HABILITAR
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -540,8 +540,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      # logo = "envato.jpg"
-      #link = "#"
+      logo = "Insper-positivo.png"
+      link = "https://www.insper.edu.br/"
       
   
   [params.diversity]
@@ -617,7 +617,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/satrdays_org"
+      link = "https://twitter.com/satRdaySP"
       title = "Twitter"
 
     [[params.footer.social]]
