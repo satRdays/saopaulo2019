@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+
+    <br><br>
+    {{ if .Site.Params.diversity.enable }}
+      {{ partial "diversity.html" . }}
+    {{ end }}
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Código de Conduta</h2>
+        </div>
+        <div>
+
+<p> O satRdays dedica-se à proporcionar uma experiência livre de assédio para todos. Não toleramos nenhuma forma de assédio aos participantes.</p>
+<p>Este código de conduta se aplica a todos os espaços do satRdays, incluindo: meetups, Twitter, Slack, listas de discussão, tanto online quanto offline. Qualquer pessoa que viole este código de conduta pode ser advertida, punida ou expulsa destes espaços, conforme critérios da Equipe de Liderança Global.</p>
+<p> Alguns espaços satRdays podem ter regras adicionais em vigor, que serão claramente disponibilizadas aos participantes. Os participantes são responsáveis ​​por conhecer e respeitar estas regras.
+  </p>
+
+  
+  Entende-se como assédio:
+  <ul>
+<li> Comentários ofensivos relacionados ao gênero, identidade e expressão de gênero, orientação sexual, deficiência, doença mental, neuro-atipicidade, aparência física, tamanho corporal, idade, raça/etnia ou religião.</li>
+<li>Comentários indesejáveis ​​sobre as escolhas e práticas de estilo de vida, incluindo aquelas relacionadas com alimentos, saúde, parentalidade, drogas e emprego.</li>
+<li>Mal entendidos deliberados ou uso de nomes preconceituosos rejeitados ou "mortos".</li>
+<li>Imagens ou comportamentos sexuais gratuitos, ou fora do tópico em espaços inapropriados.</li>
+<li>Contato físico e contato físico simulado (por exemplo, descrições textuais como " abraço" ou "backrub") sem consentimento ou após um pedido para parar.</li>
+<li>  Ameaças de violência.</li>
+<li>  Incitação à violência contra qualquer indivíduo, incluindo incentivar uma pessoa a cometer suicídio ou praticar auto-agressão.</li>
+<li> Intimidação deliberada.</li>
+<li>  Perseguição ou invasão de privacidade.</li>
+<li>Assédio à fotografia ou gravação, incluindo atividades de registro on-line para propósitos de assédio.</li>
+<li>  Interrupção sustentada da discussão.</li>
+<li>  Atenção sexual indesejável.</li>
+<li>  Padrão de contato social inadequado, como solicitar / assumir níveis inadequados de intimidade com os outros.</li>
+<li>  Continuação da comunicação um-a-um após os pedidos de cessação.</li>
+<li>  Deliberar exposição de qualquer aspecto da identidade de uma pessoa sem o seu consentimento, exceto quando necessário para proteger as pessoas vulneráveis ​​de abuso intencional.</li>
+<li>Publicação de comunicação privada não-assediante.</li>
+</ul>
+
+<br>
+<p>O satRdays prioriza a segurança das pessoas marginalizadas em detrimento do conforto das pessoas privilegiadas. A Equipe de Liderança Global não atuará em reclamações relacionadas a:</p>
+<ul>
+<li>"Reversismos", incluindo "racismo reverso", "sexismo reverso" e "cisfobia".</li>
+<li>Comunicação razoável de limites, como "me deixe em paz", "vá embora" ou "não estou discutindo isso com você".</li>
+<li>Comunicar-se em um "tom" que não se considere agradável.</li>
+<li>Criticar comportamentos ou pressupostos racistas, sexistas, cissexistas ou de outra forma opressivos.</li>
+
+  </ul>
+
+  <h2 class="section-heading">Denúncias</h2>
+
+ 
+    <p>Se você for assediado por um membro / convidado / participante de / em algum satRdays, ou, ainda, observe que alguém esteja sob assédio ou tem outras preocupações, entre em contato com a Equipe de Liderança Global através de leadership@satrdays.org. As incidências locais serão tratadas juntamente com os organizadores locais. Se a pessoa que está assediando você estiver na equipe, ela não participará da resolução do seu incidente. Responderemos o mais rápido possível.</p>
+    <p>Este código de conduta aplica-se aos espaços do satRdays, mas, se você for assediado por um membro / convidado / participante do satRdays fora de nossos espaços, queremos saber sobre esse fato também. Levamos a sério todas as denúncias de assédio por parte de membros do satRdays, especialmente a Equipe de Liderança Global. Isso inclui assédio fora de nossos espaços e assédios ocorridos a qualquer instante. A Equipe de Liderança Global se reserva o direito de excluir as pessoas do satRdays com base em seu comportamento passado, incluindo comportamento externo aos espaços do satRdays e comportamento às pessoas externas ao satRdays.</p>
+    <p> A fim de proteger os voluntários de abuso e esgotamento ("burnout"), reservamo-nos o direito de rejeitar qualquer denúncia que acreditamos ter sido feita de má-fé. Denuncias destinadas a silenciar críticas legítimas podem ser excluídas sem resposta.</p>
+    <p>Respeitamos os pedidos de confidencialidade com o propósito de proteger as vítimas de abuso. A nosso critério, podemos publicamente nomear uma pessoa sobre quem recebemos queixas de assédio ou advertir privadamente a terceiros sobre os assediadores, se acreditarmos que isso aumentará a segurança dos membros do satRdays ou do público em geral. Não nomearemos vítimas de assédio sem seu consentimento afirmativo.</p>
+
+    <h2 class="section-heading">Consequências</h2>
+    
+    <p>Espera-se que o comportamento assediador seja interrompido imediatamente quando pedido.</p>
+
+   <p> Se um participante se comporta como assediador, a Equipe de Liderança Global pode tomar qualquer ação que julgar apropriada, inclusive banimento do referido participante de todos os espaços do satRdays e identificação do participante para outros membros do satRdays ou o público em geral.</p>
+    
+        </div>
+      </div>
+    </div>
+  </section>
+   
+
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.portfolio.enable }}
+      {{ partial "modals.html" . }}
+    {{ end }}
+
+    {{ partial "js.html" . }}
+  </body>
+</html>
