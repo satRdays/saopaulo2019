@@ -182,8 +182,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Palestras"
-    subtitle = "Em breve! <br><br> [As submissões de palestras e pôsters estão abertas](https://forms.gle/hBGnao9KT35iUW6w6)!"
+    title = "Submissão de Palestras"
+    subtitle = "<br><br> [As submissões de palestras e pôsters estão abertas](https://forms.gle/hBGnao9KT35iUW6w6)!<br>  Se você tem vontade de palestrar e gostaria de ajuda na submissão, manda [email](mailto:satrdaysp@gmail.com) ou uma DM no [twitter](https://twitter.com/satRdaySP), e uma pessoa da equipe entrará em contato !<br> "
     bg = true
 
     [params.portfolio.modal]
