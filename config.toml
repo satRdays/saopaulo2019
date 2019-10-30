@@ -482,7 +482,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
   [[params.team.members]]
-      img = "rladies.jpg"
+      img = "mariguilardi.jpg"
       name = "Mariana Dias Guilardi"
       position = "Comitê Organizador"
     scope = [
