@@ -84,7 +84,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     title = "satRday São Paulo"
     subtitle = "Conferência de usuários(as) da Linguagem R em 30 de novembro de 2019"
     bg = true
-    buttonText = "Saiba mais"
+    buttonText = "Inscreva-se"
 
 
   # About [Services] section
@@ -122,8 +122,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Preço acessível"
-      description = "Inscrições em breve"
-      #url = "#"
+      description = "Inscrições a partir de 03/11"
+      url = "https://www.sympla.com.br/1-satrday-sao-paulo__699358"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
@@ -183,7 +183,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Submissão de Palestras"
-    subtitle = "<br><br> [As submissões de palestras e pôsters estão abertas](https://forms.gle/hBGnao9KT35iUW6w6)!<br>  Se você tem vontade de palestrar e gostaria de ajuda na submissão, manda [email](mailto:satrdaysp@gmail.com) ou uma DM no [twitter](https://twitter.com/satRdaySP), e uma pessoa da equipe entrará em contato !<br> "
+    subtitle = "<br><br> [As submissões de palestras e pôsters estão abertas](https://forms.gle/hBGnao9KT35iUW6w6)!<br> Incentivamos a submissão de palestrantes de **grupos subrepresentados na programação (mulheres, pessoas negras, pessoas LGBT+, pessoas com deficiência, e outras minorias)** e de **todos os níveis de experiência**, inclusive iniciantes - caso precise de qualquer tipo de mentoria, envie um e-mail para [satrdaysp@gmail.com](mailto:satrdaysp@gmail.com) ou uma DM no [twitter](https://twitter.com/satRdaySP), e uma pessoa da equipe entrará em contato !<br> "
     bg = true
 
     [params.portfolio.modal]
@@ -210,6 +210,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       date = "18/10/2019"
       title = "Início de submissão de palestras"
       description = " [Submeta através deste link](https://forms.gle/hBGnao9KT35iUW6w6)!"
+
+      [[params.about.events]]
+      #img = "1.jpg"
+      date = "03/11/2019"
+      title = "Início de inscrições de participação"
+      description = " [Inscreva-se a partir de 03/11 através deste link](https://www.sympla.com.br/1-satrday-sao-paulo__699358)."
 
     [[params.about.events]]
       img = "2.jpg"
