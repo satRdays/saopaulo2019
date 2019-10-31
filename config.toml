@@ -548,7 +548,17 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.clients]]
       logo = "Insper-positivo.png"
       link = "https://www.insper.edu.br/"
+      alt = "Insper"
       
+    [[params.clients]]
+      logo = "logo_RED_Asset.jpg"
+      link = "https://redasset.com.br/"
+      alt = "RED Asset"
+ 
+    [[params.clients]]
+      logo = "Marca_C6BANK_positivo.png"
+      link = "https://c6bank.com.br"
+      alt = "C6 Bank"      
   
   [params.diversity]
     enable = true
