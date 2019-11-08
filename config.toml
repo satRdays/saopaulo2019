@@ -57,7 +57,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # about = "Datas importantes"
     eventbrite = "Inscreva-se"
     schedule = "Programação"
-    team = "Equipe organizadora"
+    team = "Equipe"
     contact = "Contato"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -219,13 +219,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "08/11/2019"
+      date = "18/11/2019"
       title = "Término do período de submissão de palestras"
       description = ""
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "18/11/2019"
+      date = "22/11/2019"
       title = "Comunicação dos resultados de submissão de palestras"
       description = ""
 
