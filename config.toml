@@ -555,25 +555,33 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       link = "https://www.curso-r.com/"
       alt = "Curso-R"      
       
-    [[params.clients]]
+ 
+
+  
+
+   [[params.clients]]
       logo = "logo_RED_Asset.jpg"
       link = "https://redasset.com.br/"
       alt = "RED Asset"
 
- 
-  
- 
     [[params.clients]]
-      logo = "Marca_C6BANK_positivo.png"
-      link = "https://c6bank.com.br"
-      alt = "C6 Bank"   
-
-
-    [[params.clients]]
-      logo = "clearsale.jpg"
+      logo = "clearsale-logo-rgb.png"
       link = "https://br.clear.sale/"
       alt = "ClearSale"   
 
+  [[params.clients]]
+      logo = "Marca_C6BANK_positivo.png"
+      link = "https://c6bank.com.br"
+      alt = "C6 Bank"   
+  
+  
+[[params.clients]]
+      logo = "CONRE-3-LOGO-OFICIAL-safira.png"
+      link = "http://www.conre3.org.br/portal/"
+      alt = "CONRE-3"   
+
+  
+ 
   
   [params.diversity]
     enable = true
