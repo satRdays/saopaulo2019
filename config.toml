@@ -554,10 +554,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       logo = "cursor1-41.png"
       link = "https://www.curso-r.com/"
       alt = "Curso-R"      
-      
- 
-
-  
+       
 
    [[params.clients]]
       logo = "logo_RED_Asset.jpg"
@@ -580,9 +577,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       link = "http://www.conre3.org.br/portal/"
       alt = "CONRE-3"   
 
-  
- 
-  
+   
   [params.diversity]
     enable = true
     title = "Diversidade e Código de Conduta"
