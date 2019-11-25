@@ -1,0 +1,10 @@
+img = "rlogo.png"
+name = "Tiago Mendonça dos Santos"
+organisation = "Insper"
+role = "Palestrante convidado"
+#social = [
+#        ["fa-twitter", "#"],
+#        ["fa-github", "#"],
+#        ["fa-linkedin", "#"],
+#        ["fa-globe", "#"]
+#      ]

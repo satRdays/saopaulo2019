@@ -1,0 +1,10 @@
+img = "rlogo.png"
+name = "Maria Marinho"
+organisation = "SulAmérica, R-Ladies São Paulo, PyLadies São Paulo"
+role = "Palestrante"
+social = [
+#        ["fa-twitter", "#"],
+        ["fa-github", "https://github.com/MaryMS"],
+#        ["fa-linkedin", "#"],
+#        ["fa-globe", "#"]
+      ]

@@ -1,0 +1,9 @@
+img = "beamilz.jpg"
+name = "Beatriz Milz"
+organisation = "Doutoranda - IEE-USP, R-Ladies São Paulo"
+role = "Convidada - Mesa redonda"
+ social = [
+        ["fa-twitter", "https://twitter.com/BeaMilz"],
+        ["fa-github", "https://github.com/beatrizmilz"],
+        ["fa-linkedin", "https://www.linkedin.com/in/beatrizmilz/"]
+      ]

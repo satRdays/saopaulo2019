@@ -1,0 +1,10 @@
+img = "rlogo.png"
+name = "Haydee Svab"
+organisation = "R-Ladies São Paulo"
+role = "Convidada - Mesa redonda"
+#social = [
+#        ["fa-twitter", "#"],
+#        ["fa-github", "#"],
+#        ["fa-linkedin", "#"],
+#        ["fa-globe", "#"]
+#      ]

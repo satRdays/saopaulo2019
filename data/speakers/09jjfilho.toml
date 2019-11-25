@@ -1,0 +1,9 @@
+img = "josejesus.jpg"
+name = "José de Jesus Filho"
+organisation = "Consudata consultoria e organização de dados jurídicos"
+role = "Palestrante"
+social = [
+       ["fa-twitter", "https://twitter.com/jjesusfilho"],
+        ["fa-github", "https://github.com/jjesusfilho"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jjesusfilho/"]
+      ]

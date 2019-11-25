@@ -1,0 +1,9 @@
+img = "rlogo.png"
+name = "Leonardo Goes Shibata"
+organisation = "Escritório das Nações Unidas de Serviços para Projetos, Banco Interamericano de Desenvolvimento, Unicamp"
+role = "Palestrante"
+social = [
+        ["fa-twitter", "http://twitter.com/ShibataLeonardo"],
+        ["fa-github", "http://github.com/leonardoshibata"],
+        ["fa-linkedin", "http://linkedin.com/in/leonardoshibata/"]
+      ]

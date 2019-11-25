@@ -1,0 +1,7 @@
+img = "rlogo.png"
+name = "Marcelo Ventura Freire"
+organisation = "EACH/USP e R-Brasil"
+role = "Convidado - Mesa Redonda e Palestrante"
+social = [
+        ["fa-github", "https://github.com/zyxdef"]
+      ]

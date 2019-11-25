@@ -1,0 +1,10 @@
+img = "rlogo.png"
+name = "Hedibert Lopes"
+organisation = "Insper"
+role = "Convidado - Mesa Redonda"
+#social = [
+#        ["fa-twitter", "#"],
+#        ["fa-github", "#"],
+#        ["fa-linkedin", "#"],
+#        ["fa-globe", "#"]
+#      ]

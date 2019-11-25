@@ -1,0 +1,9 @@
+img = "danielfalbel.jpg"
+name = "Daniel Falbel"
+organisation = "RStudio e Curso-R"
+role = "Palestrante convidado"
+ social = [
+        ["fa-twitter", "https://twitter.com/dfalbel"],
+        ["fa-github", "https://github.com/dfalbel"],
+        ["fa-linkedin", "https://www.linkedin.com/in/daniel-falbel-54b1a834/"]
+      ]

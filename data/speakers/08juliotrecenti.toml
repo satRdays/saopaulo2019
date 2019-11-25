@@ -1,0 +1,9 @@
+img = "juliotrecenti.jpg"
+name = "Julio Trecenti"
+organisation = "Curso-R, Doutorando - IME-USP"
+role = "Palestrante"
+social = [
+    ["fa-twitter", "https://twitter.com/jtrecenti"],
+        ["fa-github", "https://github.com/jtrecenti"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jtrecenti/"]
+      ]

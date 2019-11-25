@@ -1,0 +1,9 @@
+img = "rlogo.png"
+name = "Rodolfo Augusto de Araujo Almeida"
+organisation = "Vortex Media"
+role = "Palestrante"
+social = [
+        ["fa-twitter", "https://twitter.com/rodolfoalmd/"],
+        ["fa-github", "https://github.com/rodolfoalmeida01"],
+        ["fa-linkedin", "https://www.linkedin.com/in/rodolfo-almeida/"]
+      ]

@@ -415,10 +415,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.team.members]]
       img = "josejesus.jpg"
-      name = "José de Jesus"
+      name = "José de Jesus Filho"
       position = "Comitê Organizador / Comitê Científico"
     scope = [
-       "",
+       "Consudata consultoria e organização de dados jurídicos",
        "",
      ] 
       social = [

@@ -1,0 +1,9 @@
+img = "brunaw.jpg"
+name = "Bruna Wundervald"
+organisation = "Maynooth University, R-Ladies São Paulo, R-Ladies Curitiba, R-Ladies Dublin"
+role = "Palestrante convidada"
+ social = [
+        ["fa-twitter", "https://twitter.com/bwundervald"],
+        ["fa-github", "https://github.com/brunaw"],
+        ["fa-linkedin", "https://www.linkedin.com/in/bruna-wundervald-b1b79a160/"]
+      ]

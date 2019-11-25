@@ -1,0 +1,9 @@
+img = "rlogo.png"
+name = "João Henrique de Araujo Morais"
+organisation = "ICT-UNIFESP"
+role = "Palestrante"
+social = [
+        ["fa-twitter", "https://twitter.com/joaoamorais"],
+        ["fa-github", "https://github.com/joaohmorais"],
+        ["fa-linkedin", "https://www.linkedin.com/in/joaoamorais/"]
+      ]
