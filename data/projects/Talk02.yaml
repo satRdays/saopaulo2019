@@ -1,5 +1,29 @@
 modalID: 2
-title: "Lightning Talks - Palestras de 5 minutos"
+title: "
+Sessão Oral - Palestras de 15 minutos
+ <br>
+ <ul> 
+  <li>Julio Trecenti - auth0: autenticação em shiny apps</li><br><br>
+
+    
+ </ul>
+ 
+ Lightning Talks - Palestras de 5 minutos <br><br>
+ <ul>
+
+ <li>Leonardo Goes Shibata - Transparência e reprodutibilidade de consultorias na área da saúde com o R</li><br>
+
+<li>Maria Marinho - Do SQL para o R utilizando o pacote dplyr</li><br>
+
+<li>João Henrique de Araujo Morais - rtabnetsp: Pacote R para Extração e Tratamento de Dados de Indicadores Saúde de São Paulo</li><br>
+
+<li>Ianní Welba Muliterno Bezerra - Projeto em Shiny para aplicação de testes A/B bayesianos</li><br>
+
+
+ </ul>
+ 
+ 
+ "
 subtitle: "Palestras de 5 minutos"
 date: 2019-11-30
 startsAt: 09:30

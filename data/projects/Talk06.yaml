@@ -1,5 +1,17 @@
 modalID: 2
-title: "Sessão Oral - Palestras de 15 minutos"
+title: "Sessão Oral - Palestras de 15 minutos
+ <br><br>
+ <ul>
+
+<li>José de Jesus Filho - Criando um motor de busca com R, Shiny e PostgreSQL</li><br>
+
+ <li>Marcelo Ventura Freire - Documentos Reprodutíveis em R Markdown como Forma de Autodocumentação do Processo de Produção de Conteúdo</li><br>
+ 
+<li>Rodolfo Augusto de Araujo Almeida - Como descobrimos que o governo Bolsonaro privilegia Record e SBT nos gastos com propaganda televisiva</li><br>
+
+
+
+ </ul>"
 subtitle: ""
 date: 2019-11-30
 startsAt: 13:30
