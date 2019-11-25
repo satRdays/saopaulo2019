@@ -1,10 +1,10 @@
-img = "rlogo.png"
+img = "haydee.jpg"
 name = "Haydee Svab"
-organisation = "R-Ladies São Paulo"
+organisation = "ASK-AR, IME-USP, R-Ladies São Paulo"
 role = "Convidada - Mesa redonda"
-#social = [
-#        ["fa-twitter", "#"],
-#        ["fa-github", "#"],
-#        ["fa-linkedin", "#"],
-#        ["fa-globe", "#"]
-#      ]
+social = [
+        ["fa-twitter", "https://twitter.com/hsvab"],
+        ["fa-facebook", "https://www.facebook.com/haydee.svab"],
+        ["fa-linkedin", "https://www.linkedin.com/in/hsvab/"],
+        ["fa-instagram", "https://www.instagram.com/haydeesvab/"]
+      ]
