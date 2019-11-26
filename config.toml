@@ -502,37 +502,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         ["fa-linkedin", "https://www.linkedin.com/in/mariguilardi/"]
       ]
 
-
-  [[params.team.members]]
-      img = "rladies.jpg"
-      name = "Cecília do Lago"
-      position = "Comitê Organizador"
-    scope = [
-      "- R-Ladies São Paulo",
-       "",
-       "",
-     ] 
-      social = [
-        ["fa-twitter", "https://twitter.com/ceciliadolago"],
-        ["fa-github", "https://github.com/ceciliadolago"],
-        ["fa-linkedin", "https://www.linkedin.com/in/ceciliadolago/"]
-      ]
-
-
-  [[params.team.members]]
-      img = "hamanda.jpg"
-      name = "Hamanda Cavalheri"
-      position = "Comitê Organizador"
-    scope = [
-       "- R-Ladies São Paulo",
-       "- Loggi",
-       "",
-     ] 
-      social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/hamanda-cavalheri-0a64393a/"]
-      ]
-
-
   # Client section
   [params.clients_list]
     enable = true
