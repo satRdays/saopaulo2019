@@ -1,14 +1,5 @@
 modalID: 2
-title: "
-Sessão Oral - Palestras de 15 minutos
- <br>
- <ul> 
-  <li>Julio Trecenti - auth0: autenticação em shiny apps</li><br><br>
-
-    
- </ul>
- 
- Lightning Talks - Palestras de 5 minutos <br><br>
+title: " Lightning Talks - Palestras de 8 minutos <br>
  <ul>
 
  <li>Leonardo Goes Shibata - Transparência e reprodutibilidade de consultorias na área da saúde com o R</li><br>
@@ -24,9 +15,9 @@ Sessão Oral - Palestras de 15 minutos
  
  
  "
-subtitle: "Palestras de 5 minutos"
+subtitle: "Palestras de 8 minutos"
 date: 2019-11-30
-startsAt: 09:30
+startsAt: 09:50
 endsAt: 10:30
 img: roundicons.png
 preview: faceholder.png

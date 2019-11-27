@@ -1,0 +1,21 @@
+modalID: 2
+title: "
+Sessão Oral 1 - Palestras de 15 minutos
+ <br><br>
+ <ul> 
+  <li>Julio Trecenti - auth0: autenticação em shiny apps</li>
+   
+ </ul>
+  
+ "
+subtitle: "Palestras de 15 minutos"
+date: 2019-11-30
+startsAt: 09:30
+endsAt: 09:50
+img: roundicons.png
+preview: faceholder.png
+client: 
+clientLink: "#"
+category: Category 2
+description: "Describe 2"
+talk: false

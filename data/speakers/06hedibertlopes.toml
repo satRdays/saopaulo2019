@@ -1,10 +1,10 @@
-img = "rlogo.png"
+img = "hedibert.jpg"
 name = "Hedibert Lopes"
 organisation = "Insper"
 role = "Convidado - Mesa Redonda"
-#social = [
+social = [
 #        ["fa-twitter", "#"],
 #        ["fa-github", "#"],
-#        ["fa-linkedin", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/hedibert-f-lopes-245a2213/"],
 #        ["fa-globe", "#"]
-#      ]
+      ]
