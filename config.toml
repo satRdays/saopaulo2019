@@ -546,6 +546,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       link = "http://www.conre3.org.br/portal/"
       alt = "CONRE-3"   
 
+        
+[[params.clients]]
+      logo = "oracle-logo-1.png"
+      link = "https://www.oracle.com/br/index.html"
+      alt = "ORACLE"   
+
    
   [params.diversity]
     enable = true
