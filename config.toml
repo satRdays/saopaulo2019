@@ -84,7 +84,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     title = "satRday São Paulo"
     subtitle = "Conferência de usuários(as) da Linguagem R em 30 de novembro de 2019"
     bg = true
-    buttonText = "Inscreva-se até 27/11"
+    buttonText = "Inscrições encerradas"
 
 
   # About [Services] section
@@ -122,8 +122,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Preço acessível"
-      description = "Inscrições a partir de 03/11"
-      url = "https://www.sympla.com.br/1-satrday-sao-paulo__699358"
+      description = "Inscrições encerradas"
+      #url = "https://www.sympla.com.br/1-satrday-sao-paulo__699358"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
