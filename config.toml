@@ -84,7 +84,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     title = "satRday São Paulo"
     subtitle = "Conferência de usuários(as) da Linguagem R em 30 de novembro de 2019"
     bg = true
-    buttonText = "Inscrições encerradas"
+    buttonText = "Confira as apresentações!"
 
 
   # About [Services] section
@@ -103,7 +103,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Palestras e Pôsteres"
+      title = "Palestras sobre R"
       description = "Aprenda sobre aplicações práticas em R"
       #url = "#"
 
