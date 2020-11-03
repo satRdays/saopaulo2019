@@ -365,7 +365,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
     [[params.team.members]]
-      img = "renatahirota.jpg"
+      img = "rladies.jpg"
       name = "Renata Hirota"
       position = "Comitê Organizador / Comitê Científico"
       scope = [
